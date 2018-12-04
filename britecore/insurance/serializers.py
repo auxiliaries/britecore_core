@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from brightcore.insurance.models import RiskType, FieldImplementation, FieldChoice, FIELD_TYPE_ENUM
+from britecore.insurance.models import RiskType, FieldImplementation, FieldChoice, FIELD_TYPE_ENUM
 
 
 class FieldChoiceSerializer(serializers.ModelSerializer):

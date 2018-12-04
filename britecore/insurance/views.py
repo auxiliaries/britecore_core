@@ -1,8 +1,8 @@
 from django.shortcuts import get_object_or_404
 from rest_framework import generics, parsers, response, status
 
-from brightcore.insurance.models import RiskType
-from brightcore.insurance.serializers import RiskTypeSerializer
+from britecore.insurance.models import RiskType
+from britecore.insurance.serializers import RiskTypeSerializer
 # Create your views here.
 
 
